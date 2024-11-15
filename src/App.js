@@ -1,10 +1,12 @@
 import React from 'react';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to the Portfolio</h1>
-      <p>This is a starting point for the designer's portfolio website.</p>
+      <Nav/>
+      <Hero/>
     </div>
   );
 }

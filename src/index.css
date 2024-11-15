@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'Creato Display';
+  src: url('/src/CreatoDisplay-Medium.otf');
+}
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
+  font-family: 'Creato Display', sans-serif;
+  margin-top: 30px;
   padding: 0;
 }
 
