@@ -1,6 +1,7 @@
 import React from 'react';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
+import Banner from './components/Banner';
 
 function App() {
   return (
@@ -21,6 +22,12 @@ function App() {
             Crafted by a college designer with hands-on experience in the industry, my journey from internships to launching this platform reflects a passion for innovative web and app design tailored to elevate your digital experience.
         </p>
       </Hero>
+      <hr></hr>
+      <Banner
+        title="Projects"
+        subtitle="Check out the projects that I have done throughout college."
+        text="Get to know me better!"
+      ></Banner>
     </div>
   );
 }

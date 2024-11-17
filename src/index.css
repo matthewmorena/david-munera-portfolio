@@ -13,3 +13,7 @@ body {
   text-align: center;
   padding: 2rem;
 }
+
+hr {
+  border-top: 1px solid rgb(127,52,72);
+}

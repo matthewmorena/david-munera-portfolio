@@ -1,4 +1,4 @@
-.hero-banner {
+.hero {
     display: flex;
     width: 80%;
     align-items: center;
@@ -7,18 +7,18 @@
     padding-right: 10%;
   }
   
-  .hero-banner-text, .hero-banner-image {
+  .hero-text, .hero-image {
     width: 40%;
     padding: 5%;
   }
   
-  .hero-banner-text {
+  .hero-text {
     text-align: left;
     margin-left: auto;
     margin-right: 0 !important;
   }
   
-  .hero-banner-image img {
+  .hero-image img {
     width: 100%;
     height: auto;
     box-shadow: 2px 2px 6px 2px #AAA;
@@ -30,18 +30,21 @@
   }
   
   @media (max-width: 768px) {
-    .hero-banner {
+    .hero {
       flex-direction: column; 
       align-items: center; 
+      width: 100%;
+      padding-left: 0%;
+      padding-right: 0%;
     }
   
-    .hero-banner-text, .hero-banner-image {
+    .hero-text, .hero-image {
       width: 90%; 
       padding: 5%;
       text-align: left; 
     }
   
-    .hero-banner-text {
+    .hero-text {
       margin: 0;
     }
   }
