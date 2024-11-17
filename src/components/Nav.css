@@ -23,11 +23,12 @@
   .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     margin: 0;
     padding: 0;
     flex-grow: 1;
     justify-content: flex-end;
+    font-size: 1.5rem;
   }
   
   .nav-links a {
@@ -36,7 +37,7 @@
   }
   
   .nav-links a:hover {
-    color: #222;
+    color: #AAA;
   }
 
   .nav-toggle {

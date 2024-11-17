@@ -1,26 +1,47 @@
-/* Container styling */
 .hero-banner {
     display: flex;
-    width: 100%;
-    align-items: center; /* Centers content vertically */
-    justify-content: space-between; /* Adds space between columns */
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
-  /* Column styling */
   .hero-banner-text, .hero-banner-image {
-    width: 50%; /* Ensures they each take up half of the container */
-    padding: 20%;
+    width: 40%;
+    padding: 5%;
   }
   
   .hero-banner-text {
-    /* Additional styling for the text */
-    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: 0 !important;
   }
   
   .hero-banner-image img {
-    width: 100%; /* Ensures the image fills its container */
-    height: auto; /* Maintains the aspect ratio */
+    width: 100%;
+    height: auto;
     box-shadow: 2px 2px 6px 2px #AAA;
     border-radius: 3%;
   }
+
+  .emphasis {
+    color: rgb(127,52,72);
+  }
   
+  @media (max-width: 768px) {
+    .hero-banner {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .hero-banner-text, .hero-banner-image {
+      width: 90%; 
+      padding: 5%;
+      text-align: left; 
+    }
+  
+    .hero-banner-text {
+      margin: 0;
+    }
+  }
