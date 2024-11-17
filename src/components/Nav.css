@@ -18,6 +18,13 @@
     font-size: 2rem;
     font-weight: bold;
     color: rgb(127,52,72);
+    cursor: pointer;
+    transform: skew(0deg); /* Normal text */
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-logo:hover {
+    transform: skew(-5deg);
   }
   
   .nav-links {
@@ -28,16 +35,18 @@
     padding: 0;
     flex-grow: 1;
     justify-content: flex-end;
-    font-size: 1.5rem;
   }
   
   .nav-links a {
     color: #000;
     text-decoration: none;
+    font-size: 1.5rem;
+    transition: font-size 0.3s ease-in-out;
   }
   
   .nav-links a:hover {
     color: #AAA;
+    font-size: 2rem;
   }
 
   .nav-toggle {

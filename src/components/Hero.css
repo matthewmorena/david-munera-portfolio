@@ -21,12 +21,40 @@
   .hero-image img {
     width: 100%;
     height: auto;
-    box-shadow: 2px 2px 6px 2px #AAA;
+    box-shadow: 2px 2px 6px 2px #BBB;
     border-radius: 3%;
   }
 
   .emphasis {
     color: rgb(127,52,72);
+  }
+
+  .image-tag {
+    margin-right: 4%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: rgb(208, 178, 193);
+  }
+
+  .hero-link {
+    margin-top: 8%;
+  }
+
+  .cta-button {
+    margin-top: 14%;
+    padding: 2%;
+    border: 3px solid rgb(127,52,72);
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .cta-button:hover {
+    color: #fff;
+    background-color: rgb(127,52,72);
   }
   
   @media (max-width: 768px) {
