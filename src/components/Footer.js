@@ -2,7 +2,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-    <div class="footer">
+    <div className="footer">
       <div style={{width: "10%", display: "flex", justifyContent: "space-between", margin: "auto"}}>
         <a href="https://www.linkedin.com/in/david-munera-a2862a1b6/">
           <img alt="linkedin logo" src="https://static.wixstatic.com/media/11062b_60c5fc4a3ecd49f2a697206b09eeace1~mv2.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_60c5fc4a3ecd49f2a697206b09eeace1~mv2.png"></img>
