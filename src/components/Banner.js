@@ -1,6 +1,6 @@
 import './Banner.css';
 
-const Hero = ({ title, subtitle, text }) => {
+const Banner = ({ title, subtitle, text }) => {
     return (
         <div className="banner">
             <div className="banner-title">
@@ -16,4 +16,4 @@ const Hero = ({ title, subtitle, text }) => {
     );
 }
 
-export default Hero;
+export default Banner;
