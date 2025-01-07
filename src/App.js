@@ -6,7 +6,6 @@ import WayWize from './pages/waywize';
 
 const App = () => {
     return (
-        <Router>
             <div>
                 <Routes>
                     <Route path="/" element={<Home />} />
@@ -15,7 +14,6 @@ const App = () => {
                     <Route path="/waywize" element={<WayWize />} />
                 </Routes>
             </div>
-        </Router>
     );
 };
 
