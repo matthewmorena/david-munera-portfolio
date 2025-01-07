@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/david-munera-portfolio/static/css/main.c6d8f213.css",
-    "main.js": "/david-munera-portfolio/static/js/main.a615bb83.js",
-    "static/media/Gilroy-Regular.ttf": "/david-munera-portfolio/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
-    "static/media/CreatoDisplay-Medium.otf": "/david-munera-portfolio/static/media/CreatoDisplay-Medium.ee677d4fa2edd853d112.otf",
-    "index.html": "/david-munera-portfolio/index.html",
-    "main.c6d8f213.css.map": "/david-munera-portfolio/static/css/main.c6d8f213.css.map",
-    "main.a615bb83.js.map": "/david-munera-portfolio/static/js/main.a615bb83.js.map"
+    "main.css": "/static/css/main.930ca697.css",
+    "main.js": "/static/js/main.a615bb83.js",
+    "static/media/Gilroy-Regular.ttf": "/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/CreatoDisplay-Medium.otf": "/static/media/CreatoDisplay-Medium.ee677d4fa2edd853d112.otf",
+    "index.html": "/index.html",
+    "main.930ca697.css.map": "/static/css/main.930ca697.css.map",
+    "main.a615bb83.js.map": "/static/js/main.a615bb83.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6d8f213.css",
+    "static/css/main.930ca697.css",
     "static/js/main.a615bb83.js"
   ]
 }
