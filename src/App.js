@@ -6,14 +6,16 @@ import WayWize from './pages/waywize';
 
 const App = () => {
     return (
-        <div>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/kickoff" element={<Kickoff />} />
-                <Route path="/krespos" element={<Krespos />} />
-                <Route path="/waywize" element={<WayWize />} />
-            </Routes>
-        </div>
+        <Router>
+            <div>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/kickoff" element={<Kickoff />} />
+                    <Route path="/krespos" element={<Krespos />} />
+                    <Route path="/waywize" element={<WayWize />} />
+                </Routes>
+            </div>
+        </Router>
     );
 };
 
